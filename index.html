@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend id="fieldLegend">Sign_up</legend>
+        <label>
+            Email : <input type="text" id="userEmail" placeholder="Email type here..." size="15" />
+            <br /><br />
+            Password : <input type="password" id="userPass" placeholder="Password type here..." size="15" />
+            <br /><br />
+            <div id="fieldButton">
+                <input type="button" value="SAVE" onclick="save()" />
+            </div><br /><br />
+            <p id="textLogin">Yoy have alredy an account?</p>
+            <input type="button" value="LOGIN" onclick="login()" />     
+        </label>
+    </fieldset>
+</body>
+<script src="app.js"></script>
+</html>
